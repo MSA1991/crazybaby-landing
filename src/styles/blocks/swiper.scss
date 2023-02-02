@@ -1,13 +1,13 @@
 .swiper {
   @include tablet {
-    display: none;
+    display: none !important;
   }
 
   &--2 {
-    display: block;
+    display: block !important;
 
     @include desktop {
-      display: none;
+      display: none !important;
     }
   }
 
