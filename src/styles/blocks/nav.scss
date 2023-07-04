@@ -9,7 +9,11 @@
   &--menu {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
+
+    @include tablet {
+      gap: 40px;
+    }
   }
 
   &__link {
@@ -18,13 +22,13 @@
     font-size: 14px;
     line-height: 20px;
     color: $c-black;
-    transition: all $animation-time;
 
     @include hover-text;
 
     &--menu {
-      font-size: 24px;
-      text-align: end;
+      @include tablet {
+        font-size: 22px;
+      }
     }
   }
 }

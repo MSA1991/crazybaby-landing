@@ -16,30 +16,24 @@
     }
   }
 
+  &__action-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+  }
+
   &__action {
     display: none;
 
     @include tablet {
-      width: 250px;
       display: flex;
-      justify-content: space-between;
+      gap: 30px;
       align-items: center;
     }
-
-    @include desktop {
-      width: 276px;
-    }
-  }
-
-  &__specs-link {
-    font-size: 14px;
-    color: $c-light-black;
-
-    @include hover-text;
   }
 
   &__menu {
-    @include tablet {
+    @include desktop {
       display: none;
     }
   }

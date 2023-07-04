@@ -20,46 +20,48 @@
             >
           </a>
 
-          <div class="header__action">
-            <a href="#specs" class="header__specs-link">
-              SPECS
-            </a>
+          <div class="header__action-container">
+            <div class="header__action">
+              <a href="#specs" class="specs-link">
+                specs
+              </a>
 
-            <div class="language">
-              <input
-                id="en"
-                type="radio"
-                name="lang"
-                class="language__input"
-              >
-              <label for="en" class="language__label">
-                EN
-              </label>
-              /
-              <input
-                id="ua"
-                type="radio"
-                name="lang"
-                class="language__input"
-                checked
-              >
-              <label for="ua" class="language__label">
-                UA
-              </label>
+              <div class="language">
+                <input
+                  id="en"
+                  type="radio"
+                  name="lang"
+                  class="language__input"
+                >
+                <label for="en" class="language__label">
+                  EN
+                </label>
+                /
+                <input
+                  id="ua"
+                  type="radio"
+                  name="lang"
+                  class="language__input"
+                  checked
+                >
+                <label for="ua" class="language__label">
+                  UA
+                </label>
+              </div>
+
+              <a href="#" class="button">
+                Buy
+              </a>
             </div>
 
-            <a href="#" class="button">
-              Buy
+            <a href="#menu" class="header__menu">
+              <img
+                src="images/icon/menu.svg"
+                alt="menu icon"
+                class="icon"
+              >
             </a>
           </div>
-
-          <a href="#menu" class="header__menu">
-            <img
-              src="images/icon/menu.svg"
-              alt="menu icon"
-              class="icon"
-            >
-          </a>
         </div>
 
         <div class="header__content">
@@ -144,40 +146,40 @@
             </li>
           </ul>
 
-          <div class="language">
-            <input
-              id="en-menu"
-              type="radio"
-              name="lang-menu"
-              class="language__input"
-            >
-            <label for="en-menu" class="language__label language__label--menu">
-              EN
-            </label>
-            /
-            <input
-              id="ua-menu"
-              type="radio"
-              name="lang-menu"
-              class="language__input"
-              checked
-            >
-            <label for="ua-menu" class="language__label language__label--menu">
-              UA
-            </label>
+          <div class="menu__content-box">
+            <a href="#specs-swiper" class="specs-link">
+              specs
+            </a>
+
+            <div class="language">
+              <input
+                id="en-menu"
+                type="radio"
+                name="lang-menu"
+                class="language__input"
+              >
+              <label for="en-menu" class="language__label language__label--menu">
+                EN
+              </label>
+              /
+              <input
+                id="ua-menu"
+                type="radio"
+                name="lang-menu"
+                class="language__input"
+                checked
+              >
+              <label for="ua-menu" class="language__label language__label--menu">
+                UA
+              </label>
+            </div>
           </div>
-
-          <a href="#" class="button button--wide">
-            Buy
-          </a>
         </div>
-
-        <img
-          src="images/menu.png"
-          alt="menu image"
-          class="menu__image"
-        >
       </div>
+
+      <a href="#" class="button menu__button">
+        Buy
+      </a>
     </div>
 
     <main>
@@ -282,7 +284,7 @@
               </div>
             </div>
 
-            <div class="swiper swiper--1">
+            <div class="swiper swiper--1" id="specs-swiper">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="specs-card">

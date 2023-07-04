@@ -25,6 +25,7 @@
 
 @mixin hover-text {
   text-shadow: -0.45px -0.45px 0 transparent, 0.45px 0.45px transparent;
+  transition: all $animation-time;
 
   &:hover {
     color: $c-true-black;

@@ -1,0 +1,7 @@
+.specs-link {
+  font-size: 14px;
+  color: $c-light-black;
+  text-transform: uppercase;
+
+  @include hover-text;
+}
